@@ -1,7 +1,7 @@
 <?php
 
-use App\Services\Random;
+use App\Facades\Random;
 
-Route::get('/', function (Random $random) {
-    return $random->number(0, 1000);
+Route::get('/', function () {
+    return Random::number(0, 1000);
 });

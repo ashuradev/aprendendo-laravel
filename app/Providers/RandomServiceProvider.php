@@ -9,7 +9,7 @@ use Illuminate\Support\ServiceProvider;
 class RandomServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     public $singletons = [
-        Random::class,
+        Random::class
     ];
 
     public function provides()
