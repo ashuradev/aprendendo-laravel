@@ -2,4 +2,4 @@
 
 Experimentos que fiz quando eu aprendia Laravel.
 
-**Paramos na seção de Routing.**
+**Paramos na seção de CSRF.**
