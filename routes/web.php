@@ -1,5 +1,3 @@
 <?php
 
-Route::get('/', function () {
-    return 'Olá, mundo!';
-});
+Route::view('/', 'welcome');
